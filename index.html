@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://api.dicebear.com/7.x/shapes/svg?seed=avenza" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Avenza AI is your intelligent AI-powered Business Operating System that manages customer chats, inventory, invoice generation, payments, and appointments in real-time." />
+    <meta name="keywords" content="AI, business partner, woman entrepreneur, boutique, home bakery, salon, Shopify, WhatsApp Business, smart operating system" />
+    <meta name="author" content="Avenza AI team" />
+    <title>Avenza AI - Your AI Business Partner for Every Woman Entrepreneur</title>
+    <!-- SheetJS for Excel Parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <!-- PDFJS for PDF Parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script>
+      // Configure PDF.js worker URL
+      if (window.pdfjsLib) {
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+      }
+    </script>
+  </head>
+  <body class="bg-brand-bg text-brand-dark antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
